@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+  float Ans;
+  int r;
+  clrscr();
+
+  printf("Enter the Value of Radius :");
+  scanf("%d",&r);
+
+  Ans=2*3.14*r;
+  printf("Circumference of Circle :%.2f",Ans);
+  getch();
+}
